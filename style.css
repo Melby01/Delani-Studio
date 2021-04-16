@@ -1,13 +1,38 @@
-.landing-bg{
-     background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true');
-      
- }
- body{
-     text-align: center;
- }
- .header{
-     color: white;
- }
- .intro{
-     color: white;
- }
+.container{
+    text-align: center;
+}
+.image {
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true");
+    background-size: cover;
+    height: 500px;
+}
+.logo {
+    position: absolute;
+    top: 24%;
+    display: block;
+    left: 48%;
+    text-align: center;
+}
+.header {
+    font-size: 30px;
+    color:beige;
+    position: absolute;
+    top: 35%;
+    left: 38%;
+    font-family: 'Gabriela', serif;
+}
+.mouse {
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    position: absolute;
+}
+.intro {
+   top: 55%;
+   position: absolute;
+   right: 35%;
+   font-size: 13px;
+   color: white;
+   font-family: 'Gabriela', serif;
+   
+}

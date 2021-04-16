@@ -1,0 +1,13 @@
+.landing-bg{
+     background-image: url('https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/h_img.jpg?raw=true');
+      
+ }
+ body{
+     text-align: center;
+ }
+ .header{
+     color: white;
+ }
+ .intro{
+     color: white;
+ }

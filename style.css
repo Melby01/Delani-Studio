@@ -18,7 +18,7 @@
     color:beige;
     position: absolute;
     top: 35%;
-    left: 38%;
+    left: 37%;
     font-family: 'Gabriela', serif;
 }
 .mouse {
@@ -28,11 +28,26 @@
     position: absolute;
 }
 .intro {
-   top: 55%;
+   top: 50%;
    position: absolute;
-   right: 35%;
+   right: 45%;
    font-size: 13px;
    color: white;
    font-family: 'Gabriela', serif;
-   
+}
+.about {
+    font-size: 18px;
+}
+.par2 {
+    font-size: 15px;
+}
+.port {
+    text-align: center;
+}
+.services {
+    background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/s_image.jpg?raw=true");
+    color:white;
+    height: 300px;
+    text-align: center;
+    padding-top: 30px;
 }

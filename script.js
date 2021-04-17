@@ -7,7 +7,7 @@ $(document).ready(function () {
       $(".dev").toggle();
     });
     $("#three").click(function () {
-      $(".dev").toggle();
+      $(".pro").toggle();
     });
   });
   

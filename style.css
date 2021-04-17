@@ -52,6 +52,11 @@
     padding-top: 30px;
 }
 .container2{
-     display: flex;
+     display:flex;
      flex-direction: row;
+     justify-content: space-evenly;
 }
+h4{
+    text-align: center;
+    font-size: 25px;
+    color: darkslategray;

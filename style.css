@@ -106,9 +106,11 @@ h4{
     padding-left: 15px;
   }
 
-.contacts{
+.contact{
     background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
     background-repeat: no-repeat;
+    color: white;
+    height: 500px;
     
 } 
 .contacts h1 {
@@ -116,16 +118,22 @@ h4{
     top: 30px;
     color: white;
 }
-.text{
-    margin-bottom: 20px;
+
+#name,#email,#message {
+    background-color: transparent;
+    color: white;
 }
- 
-h3 {
-    font-weight: bold;
+#name::placeholder{
+    color: white;
+}
+#email::placeholder {
+    color: white;
+}
+#message::placeholder {
     color: white;
 }
 .socialIcons {
-    padding-top: 350px;
+    padding-top: 40px;
 }
 .delani {
     padding-top: 30px;

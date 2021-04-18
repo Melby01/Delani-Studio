@@ -1,5 +1,5 @@
 body{ 
-    
+    text-align: center;
 }
 .container{
     text-align: center;
@@ -99,10 +99,16 @@ h4{
     cursor: pointer;  
  
 }
+.row .col-md-3 {
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+  }
 
 .contacts{
     background-image: url("https://github.com/jonnygovish/IP3/blob/master/assets/backgrounds/c_image.jpg?raw=true");
-    background-size: cover;
+    background-repeat: no-repeat;
     
 } 
 .contacts h1 {
@@ -117,4 +123,11 @@ h4{
 h3 {
     font-weight: bold;
     color: white;
+}
+.socialIcons {
+    padding-top: 350px;
+}
+.delani {
+    padding-top: 30px;
+    font-weight: bold;
 }

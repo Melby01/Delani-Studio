@@ -82,22 +82,10 @@ $(document).ready(function () {
     })
   });
 
-  $("button").click(function(){
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var message = document.getElementById("message").value;
-    
-    if (name==="") {
-      alert("enter your name")
-    } else if(email===""){
-      alert("enter email")
-    } else if(message===""){
-      alert("enter message")
-    }
-    else {
-      alert(" Dear " + name + " we have received your message  " + " feel free to reach out to us any time,thank you. ")
-    }
-    
-    
-    });
-    
+   //Overlay images
+
+   $('.container3').hover(function () {
+    $('#four', this).slideToggle('slow');
+}, function () {
+    $('#four', this).slideToggle('slow');
+});

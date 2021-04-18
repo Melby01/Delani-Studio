@@ -136,28 +136,45 @@
 </div>
 <!--------------------------------------------------------------------------------->
 
-<!--Creating of the contact page-->
-<form >
-   <div class="contact">
-       <h3>CONTACT US</h3>
-   <div class="forms">
-       <div class="row">
-           <div class="col-md-6">
-               <input type="text" class="form-control" id="name" placeholder="Name..." required>
-           </div>
-           <div class="col-md-6">
-               <input type="email" class="form-control" id="email" placeholder="Email..." required>
-           </div>
-       </div>
-       <div class="form-group" class="col-md-4">
-           <label for="comment">Comment:</label>
-           <textarea class="form-control" rows="10" id="message" placeholder="Your message here..." required></textarea>
-           <button type="submit " class="btn btn-primary">Submit</button>
-       </div>
-   </div>
-   </div>
-</form>
+<!--Creating of the contact page with the form-->
+ <form> 
+    <div class="contacts">
+            <div class="contact-overlay">
+                <h1 class="text-center text-white b-text">CONTACT US</h1><br>
+                <div class="col-md-12 input">
+                    <form id="form">
+                        <div class="row">
+                            <div class="col-md-2 form"></div>
+                            <input class="col-md-4 form-control name" type="text" id="name" name="name"
+                                placeholder="Name..." required><br><br>
+                            <input class="col-md-4 form-control email" type="email" id="email" name="email"
+                                placeholder="Email..." required>
+                            <div class="col-md-2">
+                            </div>
+                        </div>
+                        <div class="row input">
+                            <div class="col-md-2"></div>
+                            <textarea class="form-control col-md-8 text" rows="12" name="message" id="message"
+                                placeholder="Your message here..."></textarea>
+                            <div class="col-md-2"></div>
+                        </div>
+                        <button class="btn btn-success mx-auto d-block submit" id="okButton"
+                            type="submit">Submit</button>
+                        <br>
+                    </form>
+                </div>
+            </div>
+  </form>
+<!------------------------------------------------------------------------->
 
+ <!--<div class="socialIcons">
+  <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/twitter.png?raw=true" alt=""><img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/dribble.png?raw=true" alt=""> <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/facebook.png?raw=true" alt="">
+  <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/g_plus.png?raw=true" alt=""><img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/skype.png?raw=true" alt=""><img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/stumble_upon.png?raw=true" alt="">
+  <img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/behance.png?raw=true" alt=""><img src="https://github.com/jonnygovish/IP3/blob/master/assets/social_icons/flickr.png?raw=true" alt="">
+</div>
+<div class="delani">
+<h8>DELANI STUDIO<br>2019</h8>
+</div> -->
  
            
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js">

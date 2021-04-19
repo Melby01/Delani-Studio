@@ -1,5 +1,5 @@
 body{ 
-    text-align: center;
+    text-align: center;   
 }
 .container{
     text-align: center;
@@ -122,9 +122,19 @@ h5{
     color: white;
 }
 
-#name,#email,#message {
-    background-color: transparent;
-    color: white;
+#name,#email{
+  background-color: transparent;
+  width: 80%;
+  margin: 0;
+  border: 1px solid white;
+  padding: 0;
+  color: white;
+}
+#message {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  width: 80%;
 }
 #name::placeholder{
     color: white;
@@ -135,6 +145,7 @@ h5{
 #message::placeholder {
     color: white;
 }
+
 .socialIcons {
     padding-top: 40px;
 }

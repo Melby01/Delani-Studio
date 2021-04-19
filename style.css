@@ -85,21 +85,24 @@ h4{
     
 
 }
-#four, #security, #empower, #carrey, #website, #calculator, #bun, #rest {
-    width: 100%;
-    height: 100%;
+h5{
+    font-weight: bold;
+    font-size: x-large;
+}
+#four, #security, #empower, #carrey, #website, #calculator, #bun, #rest { 
     background-color: white;
     opacity: 0.4;
     position: absolute;
-    top: 0.0em;
     display: none;
     color: black;
     font-size: 20px;
-    padding-top: 30%;
     cursor: pointer;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
  
 }
-.row .col-md-3 {
+ .col-md-3 {
     padding-top: 20px;
     padding-right: 15px;
     padding-bottom: 20px;
